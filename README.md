@@ -58,7 +58,8 @@ If your maximum current is between 10A and 16A you have to go for a C19 cable.<b
 <b>Warning:</b> Don't overrun the cable/connector or otherwise you risk a burning cable/connector!<br>
 If you need more than 16A you either need to split the load or consult a professional to help you out.<br><br>
 
-Get two or three of those cables, because we are gonna cut and strip one (two) of them for the wiring on the printer.<br><br>
+Get two or three of those cables, because we are gonna cut and strip one (two) of them for the wiring on the printer.<br>
+You should NOT use cables like ones for speakers that you might have used for your 24V wiring, because the isolation is not rated for higher voltages!<br><br>
 Here you can see the difference between the connectors.<br>
 ![C13-C19](https://user-images.githubusercontent.com/98351572/172686941-9025ef9e-7612-464f-ac4a-17ee5e3df9fd.png)<br>
 
@@ -91,3 +92,6 @@ Buy some isolated crimp connectors and the fitting tool. You probably already kn
 The right ones will be used to connect the PSU.<br><br>
 
 # Lets start the wiring
+
+Take your first spare cable cut off the connectors and strip the mantle of it.<br>
+You should then have 3 isolated wires with different colors. Brown (phase), blue (neutral) and yellow-green (earthing). The colors may vary depending on where you live. Just search for color code mains wiring for your country.<br><br>
