@@ -1,5 +1,5 @@
 <b><i> 
-  - Do you want your printer to be unreliable because the fuse blows now and then?<br>
+  - Do you want your printer to be unreliable because the fuse blows every now and then?<br>
   - Do you want to electrify yourself on your printer?<br>
   - Do you want to melt down some cables and/or connectors mid printing?<br>
   - Or do you even want to burn down your house with your printer?
