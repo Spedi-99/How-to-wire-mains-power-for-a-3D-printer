@@ -42,7 +42,7 @@ There are some key numbers for the project we need to clarify first.<br><br>
 If you live in Europe you will certainly have 230V as a mains voltage. Other countries may have 120V or in some special cases in the USA even 240V. I assume you set the general voltage on the PSU accordingly to 120 or 230V, and all other components are fitting as well (like the heatbed).
 <br><br>
 <b>Power</b><br>
-Getting the power isn't that easy, bcause we have to do some math now.<br>
+Getting the power isn't that easy, because we have to do some math now.<br>
 There are 2 different type of loads here. Every PSU has electronics inside that will adapt to certain voltage levels and the rated power stays the same. So a 250W PSU will have 250W no matter if it is connected to 110V or 120V (respectively 230V or 240V).<br>
 The other type of loads are the heaters (heatbed and space heater if you fancy an enclosure). Those behave differently if they are connected to a higher voltage than they are rated. Basically, you can't connect a 120V heater to 230V or it will just burn off immediately.<br>
 Take a look at the following table to get to correct power draw:<br><br>
@@ -51,9 +51,9 @@ To calculate the power of a heater if you have other mains voltage, the formula 
 Power = RatedPower * (YourVoltage)² / (RatedVoltage)²<br><br>
 
 <b>Current</b><br>
-Now that we have the power consumption of the printer, we need to calculate the current with the following formula:<br>Current = TotalPower / MainsVoltage<br>
+Having the power consumption of the printer, we now need to calculate the current with the following formula:<br>Current = TotalPower / MainsVoltage<br>
 As for example 1: 1370W/230V = 5.95A<br>
-As for example 2: 2040W/120V = 17A<br><br>
+As for example 2: 2040W/120V = 17.0A<br><br>
 
 Now that you know the current you need to check the fusebox of your apartement/house if your power outlet even supports that much. (Remember that there might be other devices also be connected to the same fuse!)<br>
 Those with 120V mains voltage might already spot the problem, that the circuit-breaker only delivers a maximum of 15A in most cases as well as the power outlet is only to 15A max.<br>
@@ -120,6 +120,18 @@ Consider also connecting the frame to earth, as well as DIN-rails, your metal ba
 # Prestartup checklist
 - use a multimeter and check continuity of all connections, and that you have none like from phase to the frame.<br>
 - Are all covers of connectors closed? (PSU, SSR,...)<br>
+- Are all mains voltage conections points isolated so you can't touch them? Otherwise you need to isolate them so you can't touch them by accident!<br>
 - Are the voltages of the PSUs set correctly to your voltage level?<br>
-- If everything is ok, close all covers where mains voltage is connected, insert the fuses, take your hands off the printer and plug it into your power outlet.<br>
+- Did you put in the correct fuses?<br>
+- Is the power switch still off?
+<br>
 
+# Power up
+
+If you completed the checklist, connect the power cord to the printer, keep your hands off the printer and plug it in your power outlet.<br>
+Now try to keep as far away as possible, keep your eyes on the electronics and switch on the printer. Keep your finger on the switch so you can immediately can switch it off again if you can see some magic smoke appear.<br>
+Best case: the LED of the PSU lights up and stays lit.<br><br>
+Congrats! you are now clear to start with your printer setup.<br><br>
+Last word: ALWAYS switch off the printer and pull the plug if working on the wiring!<br><br>
+
+HAPPY PRINTING!
