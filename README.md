@@ -6,12 +6,12 @@
 </b></i><br><br>
 
 If your answer is no, then you might find my guide helpful.<br>
-I'm an electrical engineer working in industrial areas for decades now, so I will show you a safe way how to wire mains voltage to your printer that you don't risk hurting someone or even start a fire.<br><br>
+I'm an electrical engineer working in industrial areas for decades now, so I will show you a safe way how to wire mains voltage to your printer in a way that you don't risk hurting someone or even start a fire.<br><br>
 
 I know this isn't a short description, but this is a very serious topic and to be honest almost all of you wouldn't be legally allowed to wire this up. So if something bad happens, you could be in legal trouble. If you follow my guide, you should at least have the proper items that nothing goes up in smoke or hurts someone. (Tho you could still mess things up, so I'm not responsible for any of your actions)<br><br>
 
 !! Working with mains voltage is a job for professionals because your life depends on it !!<br>
-So if you completely don't know what you are doing, I strongly advice you to consult professional help. Mains voltage is not a joke!<br><br>
+If you completely don't know what you are doing, I strongly advice you to consult professional help. Mains voltage is not a joke!<br><br>
 
 I simplyfied some formulas to make it not too confusing, so please don't come to me "ohh, you forgot the power-factor" or something like that.
 
@@ -100,19 +100,21 @@ Make sure your items all have the same terminal connector, so you only have to b
 Best way are the 6.3mm flat connectors.<br>
 ![Flachstecker](https://user-images.githubusercontent.com/98351572/172694695-a6d2c2ea-8162-457a-99a0-ef8db383a4d5.PNG)<br><br>
 Buy some isolated crimp connectors and the fitting tool. You probably already know those from your local hardware store.<br>
-![Flachsteckerhülse](https://user-images.githubusercontent.com/98351572/172697080-6881d7d3-22e0-4f6e-b61d-ba2aed932da2.PNG)<br>
-The right ones will be used to connect the PSU.<br><br>
+![Flachsteckerhülsen](https://user-images.githubusercontent.com/98351572/174497985-bbedd848-21f1-4979-b103-cd1ec8a3bb1b.PNG)
+<br><br>
 
 # Lets start the wiring
 
-Take your first spare cable cut off the connectors and strip the mantle of it.<br>
+Bofore even placing the components, make sure you keep the mains wiring and low voltage wiring as seperated as possible. Don't run them alongside. Even try to not cross them at all!<br><br>
+Take a spare cable cut off the connectors and strip the mantle of it.<br>
 You should then have 3 isolated wires with different colors. Brown (phase), blue (neutral) and yellow-green (earthing). The colors may vary depending on where you live. Just search for color code mains wiring for your country.<br>
 Please, please, PLEASE.... I can't stress this enough! Stick to the corrct color code, especially for grounding!<br> 
 One should always be able to identify what is earth, what is a life wire and what is low voltage at a short look on the wiring.<br><br>
 
 I'm not going to describe how to crimp different wires/connectors, because there are already tons of videos out there.<br>
-Please keep an eye where I put which crimp-connector on. If you don't see one (orange blocks in the biddle - WAGO 221), then just strip the insulation.<br>
-Be aware that you are only allowed to put blank wires in there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
+Please keep an eye where I put which crimp-connector on. If you don't see one (orange blocks in the middle = WAGO 221), then just strip the insulation.<br>
+Be aware that you are only allowed to put in blank wires there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
+This is one (not THE only) possible wiring diagramm with very common parts.
 
 ![wiring01](https://user-images.githubusercontent.com/98351572/174494953-424f4dde-58b5-417d-9522-99965efe8803.PNG)
 <br><br>
@@ -120,7 +122,7 @@ Consider also connecting the frame to earth, as well as DIN-rails, your metal ba
 # Prestartup checklist
 - use a multimeter and check continuity of all connections, and that you have none like from phase to the frame.<br>
 - Are all covers of connectors closed? (PSU, SSR,...)<br>
-- Are all mains voltage conections points isolated so you can't touch them? Otherwise you need to isolate them so you can't touch them by accident!<br>
+- Are all mains voltage connections points isolated so you can't touch them? Otherwise you need to isolate them so you can't touch them by accident!<br>
 - Are the voltages of the PSUs set correctly to your voltage level?<br>
 - Did you put in the correct fuses?<br>
 - Is the power switch still off?
@@ -129,8 +131,8 @@ Consider also connecting the frame to earth, as well as DIN-rails, your metal ba
 # Power up
 
 If you completed the checklist, connect the power cord to the printer, keep your hands off the printer and plug it in your power outlet.<br>
-Now try to keep as far away as possible, keep your eyes on the electronics and switch on the printer. Keep your finger on the switch so you can immediately can switch it off again if you can see some magic smoke appear.<br>
-Best case: the LED of the PSU lights up and stays lit.<br><br>
+Now try to keep as far away as possible, keep your eyes on the electronics and switch on the printer. Keep your finger on the switch so you can immediately switch it off again if you can see magic smoke (black, gray or white) appear.<br>
+Best case and if you did everything correct: the LED of the PSU lights up and stays lit.<br><br>
 Congrats! you are now clear to start with your printer setup.<br><br>
 Last word: ALWAYS switch off the printer and pull the plug if working on the wiring!<br><br>
 
