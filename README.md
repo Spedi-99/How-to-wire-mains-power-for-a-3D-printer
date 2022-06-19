@@ -40,9 +40,9 @@ Go and see a doctor!
 There are some key numbers for the project we need to clarify first.<br><br>
 <b>Voltage</b><br>
 If you live in Europe you will certainly have 230V as a mains voltage. Other countries may have 120V or in some special cases in the USA even 240V. I assume you set the general voltage on the PSU accordingly to 120 or 230V, and all other components are fitting as well (like the heatbed).
-Second number you need is the maximum power consumption of your printer.<br><br>
+<br><br>
 <b>Power</b><br>
-Getting the power it isn't that easy, bcause we have to do some math now.<br>
+Getting the power isn't that easy, bcause we have to do some math now.<br>
 There are 2 different type of loads here. Every PSU has electronics inside that will adapt to certain voltage levels and the rated power stays the same. So a 250W PSU will have 250W no matter if it is connected to 110V or 120V (respectively 230V or 240V).<br>
 The other type of loads are the heaters (heatbed and space heater if you fancy an enclosure). Those behave differently if they are connected to a higher voltage than they are rated. Basically, you can't connect a 120V heater to 230V or it will just burn off immediately.<br>
 Take a look at the following table to get to correct power draw:<br><br>
@@ -110,6 +110,16 @@ You should then have 3 isolated wires with different colors. Brown (phase), blue
 Please, please, PLEASE.... I can't stress this enough! Stick to the corrct color code, especially for grounding!<br> 
 One should always be able to identify what is earth, what is a life wire and what is low voltage at a short look on the wiring.<br><br>
 
-I'm not going to describe how to crimp different wires/connectors, because there are already tons of videos out there.<br><br>
+I'm not going to describe how to crimp different wires/connectors, because there are already tons of videos out there.<br>
+Please keep an eye where I put which crimp-connector on. If you don't see one (orange blocks in the biddle - WAGO 221), then just strip the insulation.<br>
+Be aware that you are only allowed to put blank wires in there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
 
+![wiring01](https://user-images.githubusercontent.com/98351572/174494953-424f4dde-58b5-417d-9522-99965efe8803.PNG)
+<br><br>
+Consider also connecting the frame to earth, as well as DIN-rails, your metal back-plate, or your space heater.<br><br>
+# Prestartup checklist
+- use a multimeter and check continuity of all connections, and that you have none like from phase to the frame.<br>
+- Are all covers of connectors closed? (PSU, SSR,...)<br>
+- Are the voltages of the PSUs set correctly to your voltage level?<br>
+- If everything is ok, close all covers where mains voltage is connected, insert the fuses, take your hands off the printer and plug it into your power outlet.<br>
 
