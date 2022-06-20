@@ -68,10 +68,10 @@ First of all an Advice: Don't cheap out on the mains voltage parts, they can mak
 There is absolutly no sense in saving 20-50 USD/EUR on a >1000 USD/EUR printer and risking your life due to bad parts.
 
 ### The cable
-If the maximum current your printer needs is below 10A you can use a C13 cable. (like for a normal PC, but check the rating and strand diameter, some come with 3,5 or 7A rating and 0.5mm²/AWG21 or 0.75mm²/AWG20, but you should go for 1.5mm²/AWG16)<br>
+If the maximum current your printer needs is below 10A you can use a C13 cable. (like for a normal PC, but check the rating and strand diameter, some come with 7A rating and 0.75mm²/AWG20 or even less, but you should go for 1.5mm²/AWG16)<br>
 If your maximum current is between 10A and 16A you have to go for a C19 cable with 1.5mm² to 2.5mm² or AWG16 to AWG14.<br>
-<b>Warning:</b> Don't overrun the cable/connector or otherwise you risk a burning cable/connector!<br>
-If you need more than 16A you either need to split the load or consult a professional to help you out.<br><br>
+<b>Warning:</b> Don't overrun the cable/connector or otherwise you risk a fire!<br>
+If you need more than 16A you either need to split the load and consult a professional to help you out.<br><br>
 
 Get two or three of those cables, because we are gonna cut and strip them for the wiring on the printer.<br>
 You should NOT use cables like ones for speakers that you might have used for your 24V wiring, because the isolation is not rated for higher voltages!<br><br>
