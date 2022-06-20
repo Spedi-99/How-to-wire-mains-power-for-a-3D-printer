@@ -47,7 +47,7 @@ Determining the power consumption isn't that easy, because we have to do some ma
 There are 2 different types of load here. Every PSU has electronics inside that will adapt to certain voltage levels and the rated power stays the same. So a 250W PSU will have 250W no matter if it is connected to 110V or 120V (respectively 230V or 240V).<br>
 The other type of loads are the heaters (heatbed and chamber heater if you fancy an enclosure). Those behave differently if they are connected to a higher voltage than they are rated. Basically, you can't connect a 120V heater to 230V or it will just burn off immediately.<br>
 Take a look at the following table to get to correct power draw:<br><br>
-![PowerTable](https://user-images.githubusercontent.com/98351572/173236779-0bd5e3bf-637a-4ede-b13c-76b2af682bcf.PNG)<br><br>
+![PowerTable](https://user-images.githubusercontent.com/98351572/174655510-f9edfb28-cdf1-43f7-bf39-75191fe97775.PNG)<br><br>
 To calculate the power of a heater if you have other mains voltage, the formula is:<br>
 Power = RatedPower * (YourVoltage)² / (RatedVoltage)²<br><br>
 
@@ -59,7 +59,8 @@ As for example 2: 2040W/120V = 17.0A<br><br>
 Now that you know the current you need to check the fusebox of your apartement/house and validate that your power outlet even supports that much. (Remember that there might be other devices also be connected to the same fuse!)<br>
 Those with 120V mains voltage might already spot the problem, that the circuit-breaker only delivers a maximum of 15A in most cases as well as the power outlet is only rated to 15A max.<br>
 Hopefully you haven't already ordered the printer, because you should check if you have the possibility for 240V. The higher the current the more difficult it gets with wiring!<br><br>
-The last possibility if you simply have no other choice is to limit the heater power by software. Klipper and RRF offer the possibility to max-limit the heater to a certain percentage (like 75%). Just check the documentation on how this is done. It would be good if you leave about 10 to 15% margin to the trip value of the fuse.<br><br>
+The last possibility if you simply have no other choice is to limit the heater power by software. Klipper and RRF offer the possibility to max-limit the heater to a certain percentage (like 75%). Just check the documentation on how this is done. It would be good if you leave about 10 to 15% margin to the trip value of the fuse.<br>
+If you reinstall the printer (or sell it to someone who reinstalls it) from scrach and forget that you have to set this limit, you will draw too much current and in best case just blow the fuse constantly. So maybe put a sticker near the power terminals on the backside to remind you of this topic.<br><br>
 
 ## Get the power to the printer
 
