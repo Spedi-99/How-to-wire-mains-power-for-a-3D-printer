@@ -77,7 +77,7 @@ Here you can see the difference between the connectors.<br>
 ![C13-C19](https://user-images.githubusercontent.com/98351572/172686941-9025ef9e-7612-464f-ac4a-17ee5e3df9fd.png)<br>
 
 ### The connector
-Accordingly to your cable, you need a C14 or C20 connector.<br>
+Fitting to your cable, you need a C14 or C20 connector.<br>
 There are many all-in-one solutions on the market, especially cheap ones.<br>
 I do absolutely NOT recommend buying one of these for the following reasons:<br>
 <b>First:</b> Most, if not all, of these cheap devices have exposed bare unisolated metal on the backside where you could touch mains voltage!<br>
@@ -88,7 +88,7 @@ This is a more hidden flaw often overseen. The problem is the following: In many
 It is always adviceable to have a 2pole switch (DPST) to cut phase and neutral (or both phases if you have 240V).<br>
 <b>Forth:</b> Is not that much of a problem, but normally there is only 1 fuse inside. You can go for a single fuse, but if you can get your hands on one with 2 fuses for almost the same price, than go for it.<br><br>
 Those cheap all-in-one devices should only be used, if ALL mains voltage parts are consealed within an isolating casing and you have a low voltage heatbead (like an Ender)! Since our printers have an open mains powered heatbed, this is anything but a good idea!<br>
-However, there are a few high priced options which combine all needed features and even add a filter. As mentioned, don't buy cheap!<br><br>
+However, there are a few higher priced options (25-50 bucks as mentioned) which combine all needed features and even add a filter.<br><br>
 ![connectors-switch](https://user-images.githubusercontent.com/98351572/172691900-a946d6f4-73c4-4e63-bac9-3af48b9e2023.png)<br><br>
 Make sure the connector, the switch and if you fancy the filter (recommended) are rated for your maximum current. Some filters are only rated for 4A or even less.
 
