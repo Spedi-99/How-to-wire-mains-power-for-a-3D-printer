@@ -2,8 +2,8 @@
   - Do you want your printer to be unreliable because the fuse blows every now and then?<br>
   - Do you want to electrify yourself on your printer?<br>
   - Do you want to melt down some cables and/or connectors mid printing?<br>
-  - Or do you even want to burn down your house with your printer?
-  - want something like this: https://github.com/Spedi-99/How-to-wire-mains-power-for-the-3D-printer/edit/main/what-could-happen.md<br>
+  - Or do you even want to burn down your house with your printer?<br>
+  - want something like this: [bad examples](https://github.com/Spedi-99/How-to-wire-mains-power-for-the-3D-printer/blob/main/what-could-happen.md)
 </b></i><br><br>
 
 If your answer is no, then you might find my guide helpful.<br>
