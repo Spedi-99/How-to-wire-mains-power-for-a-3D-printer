@@ -43,7 +43,7 @@ There are some key numbers for the project we need to clarify first.<br><br>
 If you live in Europe you will certainly have 230V as a mains voltage. Other countries may have 120V or in some special cases in the USA even 240V. I assume you set the general voltage on the PSU accordingly to 120 or 230V and check that all other components are fitting as well (like the heatbed).
 <br><br>
 <b>Power</b><br>
-Determinining the power consumption isn't that easy, because we have to do some math now.<br>
+Determining the power consumption isn't that easy, because we have to do some math now.<br>
 There are 2 different type of loads here. Every PSU has electronics inside that will adapt to certain voltage levels and the rated power stays the same. So a 250W PSU will have 250W no matter if it is connected to 110V or 120V (respectively 230V or 240V).<br>
 The other type of loads are the heaters (heatbed and chamber heater if you fancy an enclosure). Those behave differently if they are connected to a higher voltage than they are rated. Basically, you can't connect a 120V heater to 230V or it will just burn off immediately.<br>
 Take a look at the following table to get to correct power draw:<br><br>
