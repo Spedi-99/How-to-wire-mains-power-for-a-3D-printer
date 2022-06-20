@@ -104,7 +104,7 @@ Having a fuse directly on the printer is helpful (more for smaller printers), bu
 
 ### Terminals of the items above
 Make sure your items all have the same terminal connector, so you only have to buy a single set of cable shoes.<br>
-Best way are the 6.3mm flat connectors.<br>
+Best way are the 6.3mm flat connectors. DON'T solder wires!<br>
 ![Flachstecker](https://user-images.githubusercontent.com/98351572/172694695-a6d2c2ea-8162-457a-99a0-ef8db383a4d5.PNG)<br><br>
 Buy some isolated crimp connectors and the fitting tool. You probably already know those from your local hardware store.<br>
 ![Flachsteckerhülsen](https://user-images.githubusercontent.com/98351572/174497985-bbedd848-21f1-4979-b103-cd1ec8a3bb1b.PNG)
