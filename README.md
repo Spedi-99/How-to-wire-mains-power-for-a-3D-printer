@@ -42,7 +42,7 @@ There are some key numbers for the project we need to clarify first.<br><br>
 If you live in Europe you will certainly have 230V as a mains voltage. Other countries may have 120V or in some special cases in the USA even 240V. I assume you set the general voltage on the PSU accordingly to 120 or 230V and check that all other components are fitting as well (like the heatbed).
 <br><br>
 <b>Power</b><br>
-Determine the power isn't that easy, because we have to do some math now.<br>
+Determinining the power consumption isn't that easy, because we have to do some math now.<br>
 There are 2 different type of loads here. Every PSU has electronics inside that will adapt to certain voltage levels and the rated power stays the same. So a 250W PSU will have 250W no matter if it is connected to 110V or 120V (respectively 230V or 240V).<br>
 The other type of loads are the heaters (heatbed and chamber heater if you fancy an enclosure). Those behave differently if they are connected to a higher voltage than they are rated. Basically, you can't connect a 120V heater to 230V or it will just burn off immediately.<br>
 Take a look at the following table to get to correct power draw:<br><br>
@@ -62,16 +62,16 @@ The last possibility if you simply have no other choice is to limit the heater p
 
 ## Get the power to the printer
 
-First of all an Advice: Don't cheap out on the mains voltage parts, they can make the difference between an lethal or non-lethal accident. Buy from local/trusted shops, dont trust Aliexpress components to actually have the diameter, rating, safety feature and so on they discribe.<br>
-There is absolutly no sense in saving 20-50€/$ on a >1000€/$ printer and risking your life due to bad parts.
+First of all an Advice: Don't cheap out on the mains voltage parts, they can make the difference between an lethal or non-lethal accident. Buy from local/trusted shops, dont trust Aliexpress or some marketplace dealers on Amazon components to actually have the diameter, rating, safety feature and so on they discribe.<br>
+There is absolutly no sense in saving 20-50 USD/EUR on a >1000 USD/EUR printer and risking your life due to bad parts.
 
 ### The cable
-If the maximum current your printer needs is below 10A you can use a C13 cable. (like for a normal PC, but check the rating and strand diameter, some come with 3,5 or 7A rating and 0.5mm²/AWG21 or 0.75mm²/AWG20 go for 1-1.5mm²/AWG18-16)<br>
-If your maximum current is between 10A and 16A you have to go for a C19 cable.<br>
+If the maximum current your printer needs is below 10A you can use a C13 cable. (like for a normal PC, but check the rating and strand diameter, some come with 3,5 or 7A rating and 0.5mm²/AWG21 or 0.75mm²/AWG20, but you should go for 1.5mm²/AWG16)<br>
+If your maximum current is between 10A and 16A you have to go for a C19 cable with 1.5mm² to 2.5mm² or AWG16 to AWG14.<br>
 <b>Warning:</b> Don't overrun the cable/connector or otherwise you risk a burning cable/connector!<br>
 If you need more than 16A you either need to split the load or consult a professional to help you out.<br><br>
 
-Get two or three of those cables, because we are gonna cut and strip one (two) of them for the wiring on the printer.<br>
+Get two or three of those cables, because we are gonna cut and strip them for the wiring on the printer.<br>
 You should NOT use cables like ones for speakers that you might have used for your 24V wiring, because the isolation is not rated for higher voltages!<br><br>
 Here you can see the difference between the connectors.<br>
 ![C13-C19](https://user-images.githubusercontent.com/98351572/172686941-9025ef9e-7612-464f-ac4a-17ee5e3df9fd.png)<br>
@@ -79,22 +79,23 @@ Here you can see the difference between the connectors.<br>
 ### The connector
 Accordingly to your cable, you need a C14 or C20 connector.<br>
 There are many all-in-one solutions on the market, especially cheap ones.<br>
-I do NOT recommend buying one of these for some reasons.<br>
-<b>First:</b> often the connector is rated correctly at 10A, but the switch can only manage 5 to 6A.<br>
+I do absolutely NOT recommend buying one of these for the following reasons:<br>
+<b>First:</b> Most, if not all, of these cheap devices have exposed bare unisolated metal on the backside where you could touch mains voltage!<br>
+<b>Second:</b> Often the connector is rated correctly at 10A, but the switch can only manage 5 to 6A.<br>
 This is the most common mistake. Overrunning the current will cause a burned down switch causing a fire hazard!<br>
-<b>Second:</b> In 99% of the cases, the switch is only a 1pole switch and we don't want this one on an open device like our printer!<br>
-This is a more hidden flaw often overseen. The problem is the following: In many countries, there are no regulation on wether the phase is on the left or on the right side of the power outlet. So you never know, if your 1pole switch is really cutting the phase and not the neutral wire. This means you think you turned off you printer and easily can mess around with the wiring, but there could still be mains voltage on it! This brings me back to my first rule: Always unplug the printer before working on the wiring!<br>
+<b>Third:</b> In 99% of the cases, the switch is only a 1pole switch and we don't want this one on an open device like our printer!<br>
+This is a more hidden flaw often overseen. The problem is the following: In many countries, there are no regulation on wether the phase is on the left or on the right side of the power outlet, as well as you have no fixed orientation for the power plug. So you never know, if your 1pole switch is really cutting the phase and not the neutral wire. This means you think you turned off you printer so can mess around with the wiring, but there could still be mains voltage on it! This brings me back to my first rule: Always unplug the printer before working on the wiring!<br>
 It is always adviceable to have a 2pole switch (DPST) to cut phase and neutral (or both phases if you have 240V).<br>
-<b>Third:</b> Is not that much of a problem, but normally there is only 1 fuse inside. You can go for a single fuse, but if you can get your hands on one with 2 fuses for almost the same price, than go for it.<br><br>
+<b>Forth:</b> Is not that much of a problem, but normally there is only 1 fuse inside. You can go for a single fuse, but if you can get your hands on one with 2 fuses for almost the same price, than go for it.<br><br>
 Those cheap all-in-one devices should only be used, if ALL mains voltage parts are consealed within an isolating casing and you have a low voltage heatbead (like an Ender)! Since our printers have an open mains powered heatbed, this is anything but a good idea!<br>
-However, there are a few high priced options which combine all needed features and even add a filter. But they cost 25 to 50 bucks. Nothing you will find on Ali.<br><br>
+However, there are a few high priced options which combine all needed features and even add a filter. As mentioned, don't buy cheap!<br><br>
 ![connectors-switch](https://user-images.githubusercontent.com/98351572/172691900-a946d6f4-73c4-4e63-bac9-3af48b9e2023.png)<br><br>
 Make sure the connector, the switch and if you fancy the filter (recommended) are rated for your maximum current. Some filters are only rated for 4A or even less.
 
 ### The fuse
 The example printer from above has a maximum current of nearly 6A. <br>
 Next fuse size would be 6.3A which might be a bit too close, so maybe take the next one higher up with 8A.<br>
-<b>Warning:</b> The fuse has to be always the weakest component in your printer, do not install a 8A fuse when you took a 5A switch.<br>
+<b>Warning:</b> The fuse has to be always the weakest component in your printer, do not install a 8A fuse when the switch is rated for 5A.<br>
 For anything more than 10A you might consider using a 13A breaker instead (characteristic B13 if you live in Europe).<br>
 Keep in mind, that if the breaker in your fuse box doesn't have a 1.6 times higher tripping current than the fuse on your printer, there is a high chance that the breaker in the fuse box will pop first, because of missing selectivity.<br>
 Having a fuse directly on the printer is helpful (more for smaller printers), but it is not super mandatory. At a certain level it doesn't make sense and you just use the breaker in the fuse box.<br>
@@ -118,14 +119,14 @@ One should always be able to identify what is protective earth, what is a life w
 I'm not going to describe how to crimp different wires/connectors, because there are already tons of videos out there.<br>
 Please keep an eye where I put which crimp-connector on. If you don't see one (orange blocks in the middle = WAGO 221), then just strip the insulation.<br>
 Be aware that you are only allowed to put in blank wires there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
-This is one (not THE only) possible wiring diagramm with very common parts.
+This is one possible wiring diagramm with very common parts, not THE ONLY one.
 
 ![wiring01](https://user-images.githubusercontent.com/98351572/174494953-424f4dde-58b5-417d-9522-99965efe8803.PNG)
 <br><br>
 Consider also connecting the frame to earth, as well as DIN-rails, your metal back-plate, or your chamber heater.<br><br>
 # Prestartup checklist
-<b>UNPLUGGED!</b>
-- use a multimeter and check continuity of all connections, and that you have none like from phase to the frame.<br>
+<b>still with UNPLUGGED printer!</b>
+- use a multimeter and check continuity of all connections, and that you have none like from phase to the frame from the power socket to every connection point.<br>
 - Are all covers of connectors closed? (PSU, SSR,...)<br>
 - Are all mains voltage connections points isolated so you can't touch them? Otherwise you need to isolate them so you can't touch them by accident!<br>
 - Are the voltages of the PSUs set correctly to your voltage level?<br>
@@ -141,4 +142,4 @@ Best case and if you did everything correct: the LED of the PSU lights up and st
 Congrats! you are now clear to start with your printer setup.<br><br>
 Last word: ALWAYS switch off the printer and pull the plug if working on the wiring!<br><br>
 
-HAPPY PRINTING!
+HAPPY AND SAFE PRINTING!
