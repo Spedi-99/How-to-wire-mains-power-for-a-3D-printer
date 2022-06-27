@@ -11,8 +11,8 @@ I'm an electrical engineer working in industrial areas for decades now, so I wil
 
 I know this isn't a short description, but this is a very serious topic and to be honest almost all of you wouldn't be legally allowed to wire this up. So if something bad happens, you could be in legal trouble. If you follow my guide, you should at least have the proper items that nothing goes up in smoke or hurts someone. (Tho you could still mess things up, so I'm not responsible for any of your actions)<br><br>
 
-!! Working with mains voltage is a job for professionals because your life depends on it !!<br>
-If you completely don't know what you are doing, I strongly advice you to consult professional help. Mains voltage is not a joke!<br><br>
+<b>!! Working with mains voltage is a job for professionals because your life depends on it !!<br>
+If you completely don't know what you are doing, I strongly advice you to consult professional help. Mains voltage is not a joke!</b><br><br>
 
 I simplyfied some formulas to make it not too confusing, so please don't come to me "ohh, you forgot the power-factor" or something like that.
 
@@ -85,9 +85,9 @@ I do absolutely NOT recommend buying one of these for the following reasons:<br>
 <b>First:</b> Most, if not all, of these cheap devices have exposed bare unisolated metal on the backside where you could touch mains voltage!<br>
 <b>Second:</b> Often the connector is rated correctly at 10A, but the switch can only manage 5 to 6A.<br>
 This is the most common mistake. Overrunning the current will cause a burned down switch causing a fire hazard!<br>
-<b>Third:</b> In 99% of the cases, the switch is only a 1pole switch and we don't want this one on an open device like our printer!<br>
+<b>Third:</b> In 99% of the cases, the switch is only a 1pole switch (only 2 terminals on the backside) and we don't want this one on an open device like our printer!<br>
 This is a more hidden flaw often overseen. The problem is the following: In many countries, there are no regulation on wether the phase is on the left or on the right side of the power outlet, as well as you have no fixed orientation for the power plug. So you never know, if your 1pole switch is really cutting the phase and not the neutral wire. This means you think you turned off you printer so can mess around with the wiring, but there could still be mains voltage on it! This brings me back to my first rule: Always unplug the printer before working on the wiring!<br>
-It is always adviceable to have a 2pole switch (DPST) to cut phase and neutral (or both phases if you have 240V).<br>
+It is always adviceable to have a 2pole switch (DPST, has 4 terminals on the backside) to cut phase and neutral (or both phases if you have 240V).<br>
 <b>Forth:</b> Is not that much of a problem, but normally there is only 1 fuse inside. You can go for a single fuse, but if you can get your hands on one with 2 fuses for almost the same price, than go for it.<br><br>
 Those cheap all-in-one devices should only be used, if ALL mains voltage parts are consealed within an isolating casing and you have a low voltage heatbead (like an Ender)! Since our printers have an open mains powered heatbed, this is anything but a good idea!<br>
 However, there are a few higher priced options (25-50 bucks as mentioned) which combine all needed features and even add a filter.<br><br>
@@ -124,7 +124,7 @@ Please keep an eye where I put which crimp-connector on. If you don't see one (o
 Be aware that you are only allowed to put in blank wires there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
 This is one possible wiring diagramm with very common parts, not THE ONLY one.
 
-![wiring01](https://user-images.githubusercontent.com/98351572/174494953-424f4dde-58b5-417d-9522-99965efe8803.PNG)
+![wiring01](https://user-images.githubusercontent.com/98351572/175996595-4575e527-2058-4657-9624-06d560884529.PNG)
 <br><br>
 Consider also connecting the frame to earth, as well as DIN-rails, your metal back-plate, or your chamber heater.<br><br>
 # Prestartup checklist
