@@ -5,6 +5,10 @@ Wire was not correctly inserted in WAGO-221.
 ![badexample01](https://user-images.githubusercontent.com/98351572/174642104-40f8dc5f-b421-4612-9445-72cff891922d.png)
 
 <br><br>
+Cheap all in one mains-connector that got overload<br>
+![badexample011](https://user-images.githubusercontent.com/98351572/176491998-d24a13ef-6719-432a-ba72-d770153f9552.JPG)
+
+<br><br>
 Bad contact in terminal<br>
 ![badexample02](https://user-images.githubusercontent.com/98351572/174642985-e9ff2e74-7dcc-4773-a007-e5a5498b7184.png)
 
