@@ -124,7 +124,7 @@ Please keep an eye where I put which crimp-connector on. If you don't see one (o
 Be aware that you are only allowed to put in blank wires there with no ferrules on it, otherwise they have bad contact resulting in overheating and possible fire.<br><br>
 This is one possible wiring diagramm with very common parts, not THE ONLY one.
 
-![wiring01](https://user-images.githubusercontent.com/98351572/190704085-662b70a9-ab5a-4671-b8f0-753236ddb2fa.PNG)
+![wiring01](https://user-images.githubusercontent.com/98351572/190924565-e5bf43b0-931c-480a-96cd-81aaf21c0fcf.PNG)
 
 <br><br>
 Consider also connecting the frame to earth, as well as DIN-rails, your metal back-plate, or your chamber heater.<br><br>
